@@ -13,7 +13,7 @@ from langchain.callbacks import get_openai_callback
 
 # Sidebar contents
 with st.sidebar:
-    st.title('🤗💬 PDF-ChatBot🤖')
+    st.title('🤗💬 PDF-ChatBot🤖 by Rajneesh👨🏻‍💻')
     st.markdown('''
     ## About
     This app is an LLM-powered chatbot built using:
