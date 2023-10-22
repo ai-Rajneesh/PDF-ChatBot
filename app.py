@@ -30,7 +30,7 @@ def main():
 
     # upload a PDF file
     pdf = st.file_uploader("Upload your PDF", type='pdf')
-    st.write(pdf.name)
+    #st.write(pdf.name)
 
     if pdf is not None:
         pdf_reader = PdfReader(pdf)
